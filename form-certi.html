@@ -10,16 +10,20 @@
     <h1 id="title">Formulário de pesquisa</h1>
     <p id="description">Preencha o formulário:</p>
     <form id="survey-form">
+    <fieldset>
         <label id="name-label">Nome: <input id="name" type="text" placeholder="Digite seu nome" required></label><br>
         <label id="email-label">E-mail: <input id="email" type="email" placeholder="email@gmail.com" required></label><br>
         <label id="number-label">Idade: <input id="number" type="number" min="18" placeholder="18" max="65"></label>
+    </fieldset>
 
+    <fieldset>
         <label for="sexo" name="sexo">
         <select id="dropdown">
             <option value="">Sexo</option>
             <option value="1">Masculino</option>
             <option value="2">Feminino</option>
         </select></label>
+    </fieldset>
     </form>
 </body>
 </html>
