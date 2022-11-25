@@ -1,8 +1,7 @@
 body {
     background-image: url(./img/fundo.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom 1px right 10px;
    
 
     
